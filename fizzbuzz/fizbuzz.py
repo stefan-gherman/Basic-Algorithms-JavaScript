@@ -20,8 +20,3 @@ def fizzbuzz():
     return fizz_buzz_list
 
 
-fizz_buzz_nums = fizzbuzz()
-nums_to_100 = list(range(1,101,1))
-for i in range(len(nums_to_100)):
-    print(nums_to_100[i], fizz_buzz_nums[i])
-
