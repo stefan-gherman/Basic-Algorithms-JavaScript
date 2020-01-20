@@ -16,7 +16,7 @@ def fizzbuzz():
         elif num % 5 == 0 and num %3 != 0:
             fizz_buzz_list.append('Buzz')
         else:
-            fizz_buzz_list.append(' ¯\_(ツ)_/¯')
+            fizz_buzz_list.append('¯\_(ツ)_/¯')
     return fizz_buzz_list
 
 
