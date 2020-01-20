@@ -20,3 +20,7 @@ def fizzbuzz():
     return fizz_buzz_list
 
 
+
+fizzer = fizzbuzz()
+for i in range(1,101,1):
+    print(f'{i}: {fizzer[i-1]}')
